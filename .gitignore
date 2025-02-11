@@ -1,0 +1,44 @@
+# Ignorar arquivos de sistema do macOS
+.DS_Store
+
+# Ignorar arquivos de banco de dados
+*.sqlite
+*.db
+
+# Ignorar arquivos CSV e de dados brutos
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+
+# Ignorar arquivos gerados pelo Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.so
+*.pkl
+*.log
+
+# Ignorar arquivos do R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignorar pastas e arquivos do ambiente virtual Python
+venv/
+.env
+*.env
+
+# Ignorar arquivos SQL temporários
+*.sql~
+
+# Ignorar pastas de cache
+.cache/
+
+# Ignorar backups e arquivos temporários
+*.bak
+*.swp
+*.swo
