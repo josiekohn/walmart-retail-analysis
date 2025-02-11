@@ -1,0 +1,33 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Define que este é o arquivo principal
+root = true
+
+# Configuração padrão para todos os arquivos
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true  # Remove espaços em branco no final das linhas
+insert_final_newline = true  # Adiciona uma linha em branco no final do arquivo
+
+# Específico para arquivos Python
+[*.py]
+indent_size = 4
+max_line_length = 88  # Compatível com Black (Python formatter)
+trim_trailing_whitespace = true
+
+# Específico para arquivos SQL
+[*.sql]
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Específico para arquivos R
+[*.r]
+indent_size = 2  # No R, a convenção mais usada é 2 espaços
+
+# Específico para arquivos CSV
+[*.csv]
+trim_trailing_whitespace = false  # Garante que não remova espaços nos dados
+insert_final_newline = false
